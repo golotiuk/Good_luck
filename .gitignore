@@ -3,5 +3,6 @@
 
 build
 node_modules
+.idea
 ncp-debug.log
 npm-debug.log
