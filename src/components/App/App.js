@@ -13,7 +13,6 @@ import s from './App.scss';
 import Header from '../Header';
 import Bottom from '../Bottom/Bottom'
 
-
 class App extends Component {
 
   static propTypes = {
