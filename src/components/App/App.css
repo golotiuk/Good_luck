@@ -1,23 +1,23 @@
 /*
 Error: $color: 13.5% is not a color for `lightness'
         on line 6 of ../variables.scss
-        from line 14 of App.scss
+        from line 2 of App.scss
 
-1: /**
-2:  * React Starter Kit (https://www.reactstarterkit.com/)
-3:  *
-4:  * Copyright ┬й 2014-2016 Kriasoft, LLC. All rights reserved.
-5:  *
-6:  * This source code is licensed under the MIT license found in the
-7:  * LICENSE.txt file in the root directory of this source tree.
-8:  *\/
-9: 
-10: @import '../../../node_modules/normalize.css/normalize.css';
-11: 
+1: @import '../../../node_modules/normalize.css/normalize.css';
+2: @import '../variables.scss';
+3: 
+4: html {
+5:   color: #222;
+6: 
+7:   font-weight: 100;
+8:   font-size: 1em; /* ~16px; *\/
+9:   font-family: $font-family-base;
+10:   line-height: 1.375; /* ~22px *\/
+11: }
 
 Backtrace:
 ../variables.scss:6
-App.scss:14
+App.scss:2
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/funcall.rb:310:in `reformat_argument_error'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/funcall.rb:149:in `rescue in _perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/funcall.rb:123:in `_perform'
@@ -85,4 +85,4 @@ C:/Ruby23-x64/bin/scss:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: $color: 13.5% is not a color for `lightness'\A         on line 6 of ../variables.scss\A         from line 14 of App.scss\A \A 1: /**\A 2:  * React Starter Kit (https://www.reactstarterkit.com/)\A 3:  *\A 4:  * Copyright ┬й 2014-2016 Kriasoft, LLC. All rights reserved.\A 5:  *\A 6:  * This source code is licensed under the MIT license found in the\A 7:  * LICENSE.txt file in the root directory of this source tree.\A 8:  */\A 9: \A 10: @import '../../../node_modules/normalize.css/normalize.css';\A 11: "; }
+  content: "Error: $color: 13.5% is not a color for `lightness'\A         on line 6 of ../variables.scss\A         from line 2 of App.scss\A \A 1: @import '../../../node_modules/normalize.css/normalize.css';\A 2: @import '../variables.scss';\A 3: \A 4: html {\A 5:   color: #222;\A 6: \A 7:   font-weight: 100;\A 8:   font-size: 1em; /* ~16px; */\A 9:   font-family: $font-family-base;\A 10:   line-height: 1.375; /* ~22px */\A 11: }"; }

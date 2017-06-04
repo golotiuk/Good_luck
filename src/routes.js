@@ -1,23 +1,16 @@
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 import React from 'react';
 import Router from 'react-routing/src/Router';
 import fetch from './core/fetch';
-import App from './components/App';
+import App from './components/App/App';
 import ContentPage from './components/ContentPage';
 import ContactPage from './components/ContactPage';
 import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import NotFoundPage from './components/NotFoundPage';
 import ErrorPage from './components/ErrorPage';
-
+import Slideshow from './components/Slideshow/Slideshow'
+import H1 from './components/Map/Map'
+import Admin from './components/Admin/Admin'
 const router = new Router(on => {
   on('*', async (state, next) => {
     const component = await next();
@@ -25,6 +18,10 @@ const router = new Router(on => {
   });
 
   on('/contact', async () => <ContactPage />);
+
+  on('/slide', async () => <Slideshow />);
+  on('/map', async () => <H1 />);
+  on('/admin', async() => <Admin />);
 
   on('/login', async () => <LoginPage />);
 

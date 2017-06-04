@@ -1,12 +1,3 @@
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 import React, { Component } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Header.scss';
@@ -22,10 +13,10 @@ class Header extends Component {
           <Navigation className={s.nav} />
           <Link className={s.brand} to="/">
             <img src={require('./Logo.jpg')} width="38" height="38" alt="React" />
-            <span className={s.brandTxt}>Good luck!</span>
+            <span className={s.brandTxt}>Good luck!!!</span>
           </Link>
           <div className={s.banner}>
-            <h1 className={s.bannerTitle}>Строим новый ЖК</h1>
+            <h1 className={s.bannerTitle}><a href="/admin">Строим новый ЖК</a></h1>
             <p className={s.bannerDesc}>Надеемся что найдете тут свое счастье =)</p>
           </div>
         </div>

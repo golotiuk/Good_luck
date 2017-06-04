@@ -1,12 +1,8 @@
-/**
- * Created by tarik on 21.05.2017.
- */
-
 import React, { Component } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from '../App/App.scss';
-import Feedback from '../Feedback';
-import Footer from '../Footer';
+import Feedback from './Feedback/Feedback';
+import Footer from './Footer/Footer';
 
 class Bottom extends Component {
 

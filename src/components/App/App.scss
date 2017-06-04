@@ -1,24 +1,9 @@
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 @import '../../../node_modules/normalize.css/normalize.css';
-
-/*! React Starter Kit | MIT License | https://www.reactstarterkit.com/ */
-
 @import '../variables.scss';
-
-/*
- * Base styles
- * ========================================================================== */
 
 html {
   color: #222;
+
   font-weight: 100;
   font-size: 1em; /* ~16px; */
   font-family: $font-family-base;
@@ -36,18 +21,9 @@ html {
 }
 
 .fee {
-  //position: absolute;
   bottom: 0;
   width: 100%;
 }
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -59,10 +35,6 @@ html {
   text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
-
 hr {
   display: block;
   height: 1px;
@@ -71,12 +43,6 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
 
 audio,
 canvas,
@@ -87,27 +53,16 @@ video {
   vertical-align: middle;
 }
 
-/*
- * Remove default fieldset styles.
- */
-
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
 textarea {
   resize: vertical;
 }
 
-/*
- * Browser upgrade prompt
- * ========================================================================== */
 
 :global(.browserupgrade) {
   margin: 0.2em 0;
@@ -116,18 +71,12 @@ textarea {
   padding: 0.2em 0;
 }
 
-/*
- * Print styles
- * Inlined to avoid the additional HTTP request:
- * http://www.phpied.com/delay-loading-your-print-css/
- * ========================================================================== */
-
 @media print {
   *,
   *:before,
   *:after {
     background: transparent !important;
-    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */
+    color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -145,11 +94,6 @@ textarea {
     content: " (" attr(title) ")";
   }
 
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";
@@ -160,11 +104,6 @@ textarea {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-
-  /*
-   * Printing Tables:
-   * http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
 
   thead {
     display: table-header-group;

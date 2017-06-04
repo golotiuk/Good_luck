@@ -1,23 +1,23 @@
 /*
 Error: $color: 13.5% is not a color for `lightness'
         on line 6 of ../variables.scss
-        from line 10 of Header.scss
+        from line 1 of Header.scss
 
-1: /**
-2:  * React Starter Kit (https://www.reactstarterkit.com/)
-3:  *
-4:  * Copyright ┬й 2014-2016 Kriasoft, LLC. All rights reserved.
-5:  *
-6:  * This source code is licensed under the MIT license found in the
-7:  * LICENSE.txt file in the root directory of this source tree.
-8:  *\/
+1: @import '../variables.scss';
+2: 
+3: $brand-color: #61dafb;
+4: 
+5: .root {
+6:   background: #3c763d;
+7:   color: #fff;
+8: }
 9: 
-10: @import '../variables.scss';
-11: 
+10: .container {
+11:   margin: 0 auto;
 
 Backtrace:
 ../variables.scss:6
-Header.scss:10
+Header.scss:1
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/funcall.rb:310:in `reformat_argument_error'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/funcall.rb:149:in `rescue in _perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/funcall.rb:123:in `_perform'
@@ -85,4 +85,4 @@ C:/Ruby23-x64/bin/scss:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: $color: 13.5% is not a color for `lightness'\A         on line 6 of ../variables.scss\A         from line 10 of Header.scss\A \A 1: /**\A 2:  * React Starter Kit (https://www.reactstarterkit.com/)\A 3:  *\A 4:  * Copyright ┬й 2014-2016 Kriasoft, LLC. All rights reserved.\A 5:  *\A 6:  * This source code is licensed under the MIT license found in the\A 7:  * LICENSE.txt file in the root directory of this source tree.\A 8:  */\A 9: \A 10: @import '../variables.scss';\A 11: "; }
+  content: "Error: $color: 13.5% is not a color for `lightness'\A         on line 6 of ../variables.scss\A         from line 1 of Header.scss\A \A 1: @import '../variables.scss';\A 2: \A 3: $brand-color: #61dafb;\A 4: \A 5: .root {\A 6:   background: #3c763d;\A 7:   color: #fff;\A 8: }\A 9: \A 10: .container {\A 11:   margin: 0 auto;"; }
