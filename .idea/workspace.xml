@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1339a0c2-8c92-46ce-bb42-57bf133ce5cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/firebase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Admin/Admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Admin/Admin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Map/Map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Map/map.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Slideshow/Slideshow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Slideshow/component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Slideshow/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Slideshow/normalize.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/data-fetching.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/getting-started.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/how-to-configure-text-editors.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/react-style-guide.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/recipes/how-to-implement-routing.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/recipes/how-to-integrate-disqus.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/recipes/using-npm-and-webpack-as-a-build-tool.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/App/App.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/ContentPage/ContentPage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/TextBox/TextBox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/TextBox/TextBox.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/TextBox/package.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.js" afterPath="$PROJECT_DIR$/src/components/Bottom/Feedback/Feedback.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.scss" afterPath="$PROJECT_DIR$/src/components/Bottom/Feedback/Feedback.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Feedback/package.json" afterPath="$PROJECT_DIR$/src/components/Bottom/Feedback/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterPath="$PROJECT_DIR$/src/components/Bottom/Footer/Footer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterPath="$PROJECT_DIR$/src/components/Bottom/Footer/Footer.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Footer/package.json" afterPath="$PROJECT_DIR$/src/components/Bottom/Footer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client.js" afterPath="$PROJECT_DIR$/src/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App/App.scss" afterPath="$PROJECT_DIR$/src/components/App/App.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Bottom/Bottom.js" afterPath="$PROJECT_DIR$/src/components/Bottom/Bottom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ContactPage/ContactPage.js" afterPath="$PROJECT_DIR$/src/components/ContactPage/ContactPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ContentPage/ContentPage.js" afterPath="$PROJECT_DIR$/src/components/ContentPage/ContentPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/Header.css" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/Header.js" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Link/Link.js" afterPath="$PROJECT_DIR$/src/components/Link/Link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.js" afterPath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/withViewport.js" afterPath="$PROJECT_DIR$/src/components/withViewport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.js" afterPath="$PROJECT_DIR$/src/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/constants/ActionTypes.js" afterPath="$PROJECT_DIR$/src/constants/ActionTypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/content/index.jade" afterPath="$PROJECT_DIR$/src/content/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/DOMUtils.js" afterPath="$PROJECT_DIR$/src/core/DOMUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/Location.js" afterPath="$PROJECT_DIR$/src/core/Location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/db.js" afterPath="$PROJECT_DIR$/src/core/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/passport.js" afterPath="$PROJECT_DIR$/src/core/passport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/queries/content.js" afterPath="$PROJECT_DIR$/src/data/queries/content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server.js" afterPath="$PROJECT_DIR$/src/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Good_luck.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -294,6 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -422,7 +369,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -526,7 +472,8 @@
       <workItem from="1495900987159" duration="14862000" />
       <workItem from="1495971520642" duration="7928000" />
       <workItem from="1496489729923" duration="36028000" />
-      <workItem from="1496590353790" duration="198000" />
+      <workItem from="1496590353790" duration="1462000" />
+      <workItem from="1496729964918" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="сделал отображение внизу страницы">
       <created>1495653635469</created>
@@ -570,11 +517,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495655527019</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="прикрутил фаербейс">
+      <created>1496590602252</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1496590602252</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78089000" />
+    <option name="totallyTimeSpent" value="79377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,16 +540,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25026342" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.4915701" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3365801" sideWeight="0.37144363" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33694476" sideWeight="0.37407798" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5064516" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.4915701" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3365801" sideWeight="0.6285564" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33694476" sideWeight="0.625922" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5064516" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -623,7 +577,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="сделал отображение внизу страницы" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделал отображение внизу страницы" />
+    <MESSAGE value="прикрутил фаербейс" />
+    <option name="LAST_COMMIT_MESSAGE" value="прикрутил фаербейс" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
